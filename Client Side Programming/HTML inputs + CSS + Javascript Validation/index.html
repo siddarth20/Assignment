@@ -1,0 +1,72 @@
+<html>
+    <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <form id="form">
+                <div class="title">
+                    SignUp Page
+                </div>
+                <div>
+                    <label for="username">User Name</label>
+                    <i class="fas fa-user"></i>
+                    
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Firstname Surname"
+                     />
+                    
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    
+                    <div class="error"></div>
+                    
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <i class="far fa-envelope"></i>
+                    
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="abc@gmail.com"
+                     />
+                    
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    
+                    <div class="error"></div>
+                    
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <i class="fas fa-lock"></i>
+                    
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Enter Password here"
+                     />
+                    
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    
+                    <div class="error"></div>
+                    
+                </div>
+                <button id="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>

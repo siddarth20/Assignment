@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+<name>Holdings</name>
+	<employee>
+		<name>
+		<firstname>ABC</firstname>
+		<lastname>DEF</lastname>
+		</name>
+		<age>25</age>
+		<address>
+			<city>Mumbai</city>
+			<state>Maharashtra</state>
+		</address>
+		<salary>20000</salary>
+	</employee>
+</company>
